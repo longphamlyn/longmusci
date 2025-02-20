@@ -1,0 +1,67 @@
+/* Reset cơ bản */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Thiết lập font và loại bỏ các kiểu mặc định */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Reset danh sách */
+ul, ol {
+    list-style: none;
+}
+
+/* Reset liên kết */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Reset tiêu đề */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+/* Reset bảng */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Reset input, button */
+input, button, textarea, select {
+    font: inherit;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+/* Đảm bảo hình ảnh không bị vỡ layout */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Xóa style mặc định của button */
+button {
+    cursor: pointer;
+}
+
+/* Định dạng mặc định cho thẻ form */
+input, textarea, select {
+    width: 100%;
+}
+
+/* Reset thẻ iframe */
+iframe {
+    border: none;
+}

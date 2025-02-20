@@ -1,0 +1,125 @@
+
+.header {
+    display: flex;
+    margin: 35px auto;
+    justify-content: center;
+}
+
+.header_logo{
+    width: 90px;
+    height: 91px;
+    margin-right: 80px;
+    
+}
+.header_logo img {
+    width: 80px;
+    height: 91px;
+}
+
+.header_nav{
+    display: flex;
+    width: 799px;
+    height: 27px;
+    margin: 35px 68px 35px 68px;
+    justify-content: center;
+}
+
+.nav_list {
+   display: flex;
+}
+
+.nav_item {
+    width: 100px;
+    font-weight: 600;
+}
+
+.nav_item:hover{
+    color: #008FAB;
+}
+
+
+
+.header_icons {
+    display: flex;
+    width: 183px;
+    height: 24px;
+    margin: 35px 0px 35px 68px;
+    justify-content: space-between;
+}
+
+.header_icons .icon{
+    width: 24px;
+    height: 24px;
+    margin: 0px 10px 0px 10px;
+}
+
+.banner {
+    position: relative; /* Định vị phần tử con bên trong */
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;/* Căn giữa theo chiều dọc */
+    margin-bottom: 30px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Đảm bảo ảnh phủ toàn bộ banner */
+}
+
+.title {
+    position: absolute; /* Đặt nội dung lên trên ảnh */
+    text-align: left; /* Căn trái nội dung */
+    color: white; /* Màu chữ trắng để nổi bật */
+    margin-left: 100px;
+}
+
+.banner_title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 110px;
+    font-weight: 500;
+    color: #ffc7d9;
+}
+.banner_title span{
+    color: white;
+}
+
+
+.banner_title2{
+    margin-left: 100px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 110px;
+    font-weight: 500;
+    color: #ffc7d9;
+}
+
+.banner_title span {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.banner_title1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.banner_button {
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffc7d9;
+    background: transparent;
+    border: 2px solid #ffc7d9;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.banner_button:hover {
+    background: #ffffff;
+    color: #5d1049;
+}

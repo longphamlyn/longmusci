@@ -1,0 +1,186 @@
+*{
+    font-family: "Nunito Sans", serif;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.banner2{
+    position: relative;
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 0px;
+}
+
+
+.Our_Story{
+    display: flex;
+    position: absolute;
+}
+
+.Our_Story img{
+    width: 530px;
+    height: 450px;
+    border-radius:15px;
+}
+
+.title_Story{
+   text-align: center;
+   margin-top: 90px;
+   margin-right: 20px;
+}
+
+.title_Story h1{
+    
+    font-family: "Libre Baskerville", serif;
+    color: #008FAB;
+    font-size: 66px;
+}
+
+.title_Story hr {
+    width: 40%; /* Độ rộng của hr */
+    border: 1px solid #ff7d13; /* Độ dày và màu của hr */
+    margin:2px auto; /* Căn giữa theo chiều ngang */
+    opacity: 0.8; /* Làm mờ nhẹ */
+}
+
+.title_Story p {
+    font-family: "Nunito Sans", serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.title_Story button a:hover{
+    color: #008FAB;
+   
+}
+
+.Our_Story1{
+    display: flex;
+    padding-top: 400px;
+}
+
+.Our_Story1 img{
+    width: 530px;
+    height: 450px;
+    border-radius:15px;
+}
+
+.title_Story1{
+    padding-top: 100px;
+    text-align: center;
+    margin-left:20px ;
+}
+
+.title_Story1 h1{
+    font-family: "Libre Baskerville", serif;
+    color: #008FAB;
+    font-size: 66px;
+}
+
+.title_Story1 hr {
+    width: 40%; /* Độ rộng của hr */
+    border: 1px solid #ff7d13; /* Độ dày và màu của hr */
+    margin: 2px auto; /* Căn giữa theo chiều ngang */
+    opacity: 0.8; /* Làm mờ nhẹ */
+}
+
+.title_Story1 p {
+    font-family: "Nunito Sans", serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.title_Story1 button a:hover{
+    color: #008FAB;
+   
+}
+
+.about-us{
+    background-color: #F1F0F0;
+    width: 100%;
+    height: 202px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.about-us_item{
+    width: 200px;
+}
+
+.about-us_item img{
+    width: 45px;
+    height: 45px;
+    margin-left: 40%;
+}
+
+.about-us_title{
+    text-align: center;
+    font-size: 25px;
+}
+
+/* dang sach sp */
+
+.product_list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.products{
+    width: 300px;
+    height: 393px;
+}
+
+.product_icon{
+    width: 300px;
+    height: 300px;
+}
+
+.product_title{
+    font-family: "Nunito Sans", serif;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.product_title p:hover{
+    color: #008FAB;
+}
+
+.produc_prine{
+    display: flex;
+    justify-content: space-between;
+}
+
+.produc_prine h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.produc_prine h5{
+    color: red;
+    font-size: 15px;
+}
+
+.produc_prine .icon_favorite{
+    width: 29px;
+}
+
+.produc_prine .icon_favorite :hover {
+    background-color: #008FAB;
+    
+}
+
+.produc_prine .icon_bag {
+    width: 29px;
+}
