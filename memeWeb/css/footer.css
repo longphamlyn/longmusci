@@ -1,0 +1,94 @@
+.footer {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border: 15px solid #72ffec;
+  }
+  
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    text-align: left;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .subscribe {
+    margin-top: 40px;
+    font-size: 18px;
+  }
+  
+  .subscribe-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .subscribe-box input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .subscribe-box button {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .payment {
+    margin-top: 30px;
+  }
+  
+  .payment-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .payment-icons img {
+    height: 30px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .social-icons img {
+    height: 25px;
+  }
+  
+  .copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+  }
