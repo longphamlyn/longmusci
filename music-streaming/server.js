@@ -6,6 +6,7 @@ const express = require('express');        // Express là một framework web ch
 const cors = require('cors');              // CORS (Cross-Origin Resource Sharing) là một middleware để cho phép hoặc hạn chế tài nguyên được yêu cầu từ các miền khác nhau.
 const bodyParser = require('body-parser'); // Body-parser là một middleware để phân tích các body trong yêu cầu đến (cho JSON, văn bản, v.v.).
 const { sequelize } = require('./models'); // Nhập đối tượng sequelize từ file models, chịu trách nhiệm tương tác với cơ sở dữ liệu.
+const authRoutes = require("./routes/userRoutes");
 
 // Tạo một ứng dụng Express.
 const app = express();
@@ -20,7 +21,7 @@ app.use(bodyParser.json()); // Sử dụng body-parser để tự động phân 
 app.get('/', (req, res) => {
   res.send('Music Streaming API is running...');
 });
-
+app.use("/api/auth", authRoutes);
 // Kết nối với cơ sở dữ liệu và khởi động server.
 // sequelize.sync() đảm bảo rằng Sequelize đồng bộ với cơ sở dữ liệu, bao gồm các mô hình và bảng.
 sequelize.sync().then(() => {
